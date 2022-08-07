@@ -1,0 +1,35 @@
+<svg width="1920" height="1080" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <defs>
+  <linearGradient id="cccoil-grad" y2="100%" x2="50%" y1="0%" x1="50%">
+   <stop offset="0%" stop-color="hsl(197, 76%, 42%)"/>
+   <stop offset="100%" stop-color="#19bb4a"/>
+  </linearGradient>
+ </defs>
+ <g>
+  <title>Layer 1</title>
+  <g stroke="url(#cccoil-grad)" id="svg_1" stroke-linecap="round" fill="none">
+   <circle stroke="null" id="svg_2" opacity="0.05" stroke-dasharray="1939 2281" stroke-width="7" cy="458.11609" cx="959.99997" r="363"/>
+   <circle transform="rotate(343 960 458.116)" stroke="null" id="svg_3" opacity="0.1" stroke-dasharray="1762 2177" stroke-width="7" cy="458.11609" cx="959.99997" r="346.5"/>
+   <circle transform="rotate(326 959.999 458.116)" stroke="null" id="svg_4" opacity="0.14" stroke-dasharray="1595 2073" stroke-width="7" cy="458.11609" cx="959.99997" r="330"/>
+   <circle transform="rotate(309 960 458.116)" stroke="null" id="svg_5" opacity="0.19" stroke-dasharray="1435 1970" stroke-width="7" cy="458.11609" cx="959.99997" r="313.5"/>
+   <circle transform="rotate(291 960 458.116)" stroke="null" id="svg_6" opacity="0.23" stroke-dasharray="1284 1866" stroke-width="7" cy="458.11609" cx="959.99997" r="297"/>
+   <circle transform="rotate(274 960 458.116)" stroke="null" id="svg_7" opacity="0.28" stroke-dasharray="1141 1762" stroke-width="7" cy="458.11609" cx="959.99997" r="280.5"/>
+   <circle transform="rotate(257 960 458.116)" stroke="null" id="svg_8" opacity="0.32" stroke-dasharray="1007 1659" stroke-width="7" cy="458.11609" cx="959.99997" r="264"/>
+   <circle transform="rotate(240 960 458.116)" stroke="null" id="svg_9" opacity="0.37" stroke-dasharray="881 1555" stroke-width="7" cy="458.11609" cx="959.99997" r="247.5"/>
+   <circle transform="rotate(223 960 458.116)" stroke="null" id="svg_10" opacity="0.41" stroke-dasharray="764 1451" stroke-width="7" cy="458.11609" cx="959.99997" r="231"/>
+   <circle transform="rotate(206 960 458.116)" stroke="null" id="svg_11" opacity="0.46" stroke-dasharray="655 1348" stroke-width="7" cy="458.11609" cx="959.99997" r="214.5"/>
+   <circle transform="rotate(189 960 458.116)" stroke="null" id="svg_12" opacity="0.5" stroke-dasharray="554 1244" stroke-width="7" cy="458.11609" cx="959.99997" r="198"/>
+   <circle transform="rotate(171 960 458.116)" stroke="null" id="svg_13" opacity="0.55" stroke-dasharray="462 1140" stroke-width="7" cy="458.11609" cx="959.99997" r="181.5"/>
+   <circle transform="rotate(154 960 458.116)" stroke="null" id="svg_14" opacity="0.59" stroke-dasharray="378 1037" stroke-width="7" cy="458.11609" cx="959.99997" r="165"/>
+   <circle transform="rotate(137 960 458.116)" stroke="null" id="svg_15" opacity="0.64" stroke-dasharray="302 933" stroke-width="7" cy="458.11609" cx="959.99997" r="148.5"/>
+   <circle transform="rotate(120 960 458.116)" stroke="null" id="svg_16" opacity="0.68" stroke-dasharray="235 829" stroke-width="7" cy="458.11609" cx="959.99997" r="132"/>
+   <circle transform="rotate(103 960 458.116)" stroke="null" id="svg_17" opacity="0.73" stroke-dasharray="176 726" stroke-width="7" cy="458.11609" cx="959.99997" r="115.5"/>
+   <circle transform="rotate(86 960 458.116)" stroke="null" id="svg_18" opacity="0.77" stroke-dasharray="126 622" stroke-width="7" cy="458.11609" cx="959.99997" r="99"/>
+   <circle transform="rotate(69 960 458.116)" stroke="null" id="svg_19" opacity="0.82" stroke-dasharray="84 518" stroke-width="7" cy="458.11609" cx="959.99997" r="82.5"/>
+   <circle transform="rotate(51 960 458.116)" stroke="null" id="svg_20" opacity="0.86" stroke-dasharray="50 415" stroke-width="7" cy="458.11609" cx="959.99997" r="66"/>
+   <circle transform="rotate(34 960 458.116)" stroke="null" id="svg_21" opacity="0.91" stroke-dasharray="25 311" stroke-width="7" cy="458.11609" cx="959.99997" r="49.5"/>
+   <circle transform="rotate(17 960 458.116)" stroke="null" id="svg_22" opacity="0.95" stroke-dasharray="8 207" stroke-width="7" cy="458.11609" cx="959.99997" r="33"/>
+   <circle stroke="null" id="svg_23" stroke-dasharray="0 104" stroke-width="7" cy="458.11609" cx="959.99997" r="16.5"/>
+  </g>
+ </g>
+</svg>

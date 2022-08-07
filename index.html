@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E3TU</title>
+    <meta charset="utf-8">
+    <html lang="en">
+    <link rel="preconnect" href="https://fonts.gstatic.com/">
+    <meta name="description" content="Website">
+</head>
+<body>
+  <nav class="topbar">
+    <h1 class="logo">E3TU</h1>
+    <ul>
+      <li><a class="" href="#">Home</a></li>
+      <li><a href="#aboutme">About me</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a class="colored" href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+  <div class="container">
+    <div class="introduction">
+      <h1><span class="word">_</span>Im E3TU.</h1>
+      <p class="text33">Web developer <br> from Finland</p>
+      <br class="linebreak">
+      <a class="github" href="https://github.com/E3TU"><i class="fa-brands fa-github"></i></a>
+      <a class="discord"><i class="fa-brands fa-discord"></i></a>
+    </div>
+  </div>
+  <div class="aboutme" id="aboutme">
+      <h1 class="header" id="header">Aboutme</h1>
+      <div class="textcontainer">
+        <h2>Frontend developer</h2>
+        <p class="text">Im web developer and student from Finland.<br> Im studying software developing in vocational school. <br>I enjoy developing websites and web apps. I also like learning new things about programming.
+          <br><br>
+          <i class="fa-brands fa-html5"></i>
+          <i class="fa-brands fa-css3-alt"></i>
+          <i class="fa-brands fa-js"></i>
+        </p>
+      </div>
+  </div>
+  <h1 class="header2">Projects</h1>
+  <div class="projects" id="projects">
+    <div class="box1"></div>
+    <div class="box2"></div>
+    <div class="box3"></div>
+  </div>
+  <div class="contact" id="contact">
+    <h1 class="header3">Contact</h1>
+      <form class="contactform" name="contactform" method="POST" data-netlify="true">
+        <div class="part">
+          <p>
+            <label>Name<input type="text" name="name" class="name"/></label>   
+          </p>
+        </div>
+        <div class="part2">
+          <p>
+            <label>Email<input type="email" name="email" /></label>
+          </p>
+        </div>
+        <div class="part3">
+          <p>
+            <label>Message<textarea name="message"></textarea></label>
+          </p>
+        </div>
+        <br>
+        <div class="captcha">
+          <div data-netlify-recaptcha="true"></div>
+        </div>
+        <div class="part4">
+          <p>
+            <button id="submit" type="submit">Send</button>
+          </p>
+        </div>
+      </form>
+    </div>
+<script src="https://kit.fontawesome.com/2cc1db7ccc.js" crossorigin="anonymous"></script>
+<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.6.0.min.js"></script>
+<script>
+    $(function() {
+ $(window).on("scroll", function() {
+    if($(window).scrollTop() > 80) {
+        //background on scroll
+        $(".topbar").addClass("scroll");
+    } else {
+        //background at top
+       $(".topbar").removeClass("scroll");
+    }
+  });
+});
+</script>
+</body>
+</html>
