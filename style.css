@@ -21,6 +21,7 @@ body {
   height: 6rem;
   background-color: transparent;
   z-index: 1000;
+  transition: 0.5s;
 }
 .topbar ul {
   float: right;
@@ -65,7 +66,7 @@ body {
   background: url(images/svg.svg) no-repeat;
   clip-path: polygon(0 0,100% 0%,100% 90%,0 100%);
   background-color: #101010;
-  height: 64.1rem;
+  height: 67.5rem;
   width: 100%;
 }
 .introduction {
@@ -150,7 +151,6 @@ body {
   margin-left: 18rem;
   width: 45rem;
   height: auto;
-  text-align: center;
 }
 .textcontainer h2 {
   color: #19bb4a;
@@ -162,17 +162,25 @@ body {
   color: #fff;
   font-size: 1.5rem;
 }
-.text i {
-  font-size: 6.3rem;
+.icons{
+  display: flex;
+  gap: 1rem;
 }
 .fa-html5 {
+  font-size: 8rem;
   color: #e34c26;
 }
 .fa-css3-alt {
+  font-size: 8rem;
   color: #2965f1;
 }
 .fa-js {
+  font-size: 8rem;
   color: #f0db4f;
+}
+.fa-node-js{
+  font-size: 8rem;
+  color: #3c873a;
 }
 .projects {
   background-color: #101010;
@@ -194,44 +202,57 @@ body {
   gap: 4rem;
   flex-direction: row;
 }
-.box1 {
+.box {
   background-color: #202020;
+  box-shadow: 5px 10px #19bb4a;
   width: 25rem;
-  height: 30rem;
+  height: 20rem;
   border-radius: 12px;
-}
-.box2 {
-  background-color: #202020;
-  width: 25rem;
-  height: 30rem;
-  border-radius: 12px;
-}
-.box3 {
-  background-color: #202020;
-  width: 25rem;
-  height: 30rem;
-  border-radius: 12px;
-}
-.image{
-  border-top-left-radius: 12px;
-  border-top-right-radius: 12px;
-  width: 100%;
-  height: 17rem;
 }
 .text-container{
   height: 13rem;
   width: 100%;
 }
 .text-container h1{
-  font-size: 1.7rem;
+  font-size: 2rem;
+  font-weight: bold;
   color: #fff;
-  margin-left: 1rem;
-  margin-top: 0.5rem;
+  margin-left: 2rem;
+  margin-top: 2rem;
 }
 .text-container p{
   font-size: 1rem;
   color: #fff;
-  margin-left: 1.2rem;
+  margin-left: 2.2rem;
+  margin-right: 2.2rem;
+}
+#github{
+  margin-left: 2rem;
+  padding: 12px 24px;
+  font-size: 1rem;
+  background-color: transparent;
+  color: #fff;
+  border: 2px solid #19bb4a;
+  border-radius: 6px;
+  transition: 0.5s;
+}
+#github:hover{
+  background-color: #19bb4a;
+  transition: 0.5s;
+}
+#view{
+  margin-left: 1rem;
+  padding: 12px 24px;
+  font-size: 1rem;
+  background-color: transparent;
+  color: #fff;
+  border: 2px solid #19bb4a;
+  border-radius: 6px;
+  transition: 0.5s;
+}
+#view:hover{
+  background-color: #19bb4a;
+  transition: 0.5s;
 }
 .header3 {
   color: #fff;
