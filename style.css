@@ -36,10 +36,17 @@ body {
   text-decoration: none;
   color: #fff;
   padding: 15px;
+  transition: 0.5s;
+}
+.topbar a:hover{
+  color: #19bb4a;
 }
 .colored {
   background-color: #19bb4a;
   border-radius: 12px;
+}
+.colored:hover{
+  color: #000 !important;
 }
 .logo {
   display: flex;
@@ -107,6 +114,19 @@ body {
 .github:hover{
   color: #000;
 }
+.discord{
+  margin-left: 0.5rem;
+  padding: 6px 8px;
+  border-radius: 12px;
+  background-color: #19bb4a;
+  text-decoration: none;
+  color: #fff;
+  transition: 1s;
+  font-family: "Poppins", sans-serif;
+}
+.discord:hover{
+  color: #000;
+}
 .linebreak {
   content: "";
   display: block;
@@ -121,10 +141,8 @@ body {
   text-align: left;
 }
 .aboutme {
-  position: relative;
-  background: url(images/Meteor.svg);
   height: 50rem;
-  background-color: #202020;
+  background-color: #1c2429;
   width: 100%;
 }
 .textcontainer {
@@ -155,6 +173,11 @@ body {
 .fa-js {
   color: #f0db4f;
 }
+.projects {
+  background-color: #101010;
+  height: 63.1rem;
+  width: 100%;
+}
 .header2 {
   color: #fff;
   font-size: 5rem;
@@ -162,16 +185,12 @@ body {
   text-align: left;
   margin-left: 18rem;
 }
-.projects {
-  display: flex;
+.boxes{
   margin-top: 5rem;
-  /* align-items: center ; */
+  display: flex;
   justify-content: center;
   gap: 4rem;
   flex-direction: row;
-  position: relative;
-  height: 50rem;
-  width: 100%;
 }
 .box1 {
   background-color: #202020;
@@ -220,6 +239,7 @@ body {
   margin-left: 18rem;
 }
 .contact {
+  background-color: #1c2429;
   position: relative;
   height: 50rem;
   width: 100%;
@@ -241,7 +261,7 @@ input {
   display: block;
   margin: auto;
   width: 100%;
-  background-color: #393939;
+  background-color: #fff;
   border: none;
   color: #fff;
   padding-left: 0.2rem;
@@ -252,7 +272,7 @@ textarea {
   display: block;
   margin: auto;
   width: 100%;
-  background-color: #393939;
+  background-color: #fff;
   border: none;
   color: #fff;
   padding-left: 0.2rem;
