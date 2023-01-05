@@ -104,8 +104,9 @@ body {
   }
 }
 .github {
+  font-size: 1.5rem;
   margin-left: 1rem;
-  padding: 6px 12px;
+  padding: 15px 20px;
   border-radius: 12px;
   background-color: #19bb4a;
   text-decoration: none;
@@ -116,36 +117,25 @@ body {
 .github:hover{
   color: #000;
 }
-.discord{
-  margin-left: 0.5rem;
-  padding: 6px 8px;
-  border-radius: 12px;
-  background-color: #19bb4a;
-  text-decoration: none;
-  color: #fff;
-  transition: 1s;
-  font-family: "Poppins", sans-serif;
-}
-.discord:hover{
-  color: #000;
+.fa-github{
+  font-size: 2rem;
 }
 .linebreak {
   content: "";
   display: block;
   margin: 1rem;
 }
+.aboutme {
+  height: 50rem;
+  background-color: #1c2429;
+  width: 100%;
+}
 .header {
-  line-height: 12rem;
   margin-left: 18rem;
   width: 24rem;
   color: #fff;
   font-size: 5rem;
   text-align: left;
-}
-.aboutme {
-  height: 50rem;
-  background-color: #1c2429;
-  width: 100%;
 }
 .textcontainer {
   margin-left: 18rem;
